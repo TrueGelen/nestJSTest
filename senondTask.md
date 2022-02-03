@@ -1,0 +1,1 @@
+When a user will upload the document we just add the upload flag and this flag will changed to the true when all the data will be uploaded to S3. On every step API's of each service will "communicate" each other and when all of these API's will send the information that file is uploaded we just change the flag to the true.
